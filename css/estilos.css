@@ -1,0 +1,28 @@
+.encabezado1 {
+    text-align: center;
+    color: white;
+    background-color: pink;
+    margin-top: -1%;
+}
+
+.sección1{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sección1 img {
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+
+.introducción {
+    text-align: left;
+    margin-left: 5px; 
+    font-size: 30px;
+    color: pink;
+}
