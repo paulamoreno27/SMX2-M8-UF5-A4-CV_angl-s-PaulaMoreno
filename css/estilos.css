@@ -1,3 +1,7 @@
+body {
+    background-color: whitesmoke;
+}
+
 .encabezado1 {
     text-align: center;
     color: white;
@@ -6,8 +10,8 @@
 }
 
 .sección1{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -52,4 +56,22 @@
 
 .texto1 {
     padding-left: 7%;
+}
+
+.sección3{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo2 {
+    text-align: center;
+    margin-left: 5px; 
+    font-size: 30px;
+    color: white;
+    background-color: pink;
 }
