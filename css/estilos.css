@@ -12,17 +12,44 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
 .sección1 img {
     display: flex;
-    width: 70%;
-    height: 100%;
+    width: 45%;
+    height: 65%;
+    padding: 5%;
 }
 
 .introducción {
-    text-align: left;
+    text-align: center;
     margin-left: 5px; 
     font-size: 30px;
     color: pink;
+}
+
+.sección2 {
+    border-width:3px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+
+.titulo1 {
+    text-align: center;
+    margin-left: 5px; 
+    font-size: 25px;
+    color: pink;
+}
+
+.tabla {
+    box-sizing: border-box;
+    color: black;
+    padding-left: 3%;
+
+}
+
+.texto1 {
+    padding-left: 7%;
 }
