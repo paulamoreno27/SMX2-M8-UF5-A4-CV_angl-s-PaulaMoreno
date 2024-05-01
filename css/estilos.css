@@ -2,6 +2,10 @@ body {
     background-color: whitesmoke;
 }
 
+body.estudios {
+    background-color: pink;
+}
+
 .encabezado1 {
     text-align: center;
     color: white;
@@ -95,4 +99,11 @@ body {
 #textosec2 {
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.encabezado2 {
+    text-align: center;
+    color: pink;
+    background-color: white;
+    margin-top: -1%;
 }
