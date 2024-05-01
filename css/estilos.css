@@ -158,3 +158,38 @@ body.estudios {
     text-align: center;
     color: white;
 }
+
+.encabezado3 {
+    text-align: center;
+    color: white;
+    background-color: pink;
+    margin-top: -1%;
+}
+
+.contenedor {
+    border-width:4px;
+    margin-left: 20%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#textoex {
+    text-align: center;
+    color: pink; 
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.titulo5 {
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+.texto-izq2 {
+    border-width:4px;
+    margin: 5px; 
+    color: pink;
+    text-align: center;
+}
