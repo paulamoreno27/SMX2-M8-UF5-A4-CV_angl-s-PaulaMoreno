@@ -36,26 +36,42 @@ body {
 .sección2 {
     border-width:3px;
     padding: 10px;
-    margin: auto;
-    display: flex;
+    margin-right: 5%;
+    height: 220px;
+    color: black; 
+    display: grid;
+    justify-content: space-around;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "header header"
+    "tabla1 tabla2"; 
 }
 
-.titulo1 {
+#titulo1 {
     text-align: center;
     margin-left: 5px; 
-    font-size: 25px;
-    color: pink;
+    font-size: 30px;
+    color: white;
+    background-color: pink;
+}
+  
+#titulo2 {
+    text-align: center;
 }
 
-.tabla {
-    box-sizing: border-box;
-    color: black;
-    padding-left: 3%;
-
+.tablas {
+    grid-area: header;  
 }
 
-.texto1 {
-    padding-left: 7%;
+.tabla1{
+    grid-area: tabla1;
+    margin-left: 65%;
+}
+
+.tabla2{
+    grid-area: tabla2;
+    margin-left: 15%;
 }
 
 .sección3{
@@ -68,10 +84,15 @@ body {
     text-align: center;
 }
 
-.titulo2 {
+.titulo3 {
     text-align: center;
     margin-left: 5px; 
     font-size: 30px;
     color: white;
     background-color: pink;
+}
+
+#textosec2 {
+    margin-left: 20%;
+    margin-right: 20%;
 }
