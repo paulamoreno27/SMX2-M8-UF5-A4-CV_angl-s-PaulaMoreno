@@ -75,16 +75,16 @@ body {
 }
 
 .sección3{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 }
 
-.titulo3 {
+#titulo3 {
     text-align: center;
     margin-left: 5px; 
     font-size: 30px;
