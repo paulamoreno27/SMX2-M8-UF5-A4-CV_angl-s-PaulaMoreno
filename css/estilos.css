@@ -14,13 +14,14 @@ body.estudios {
 }
 
 .sección1{
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     text-align: justify;
+    border-width:4px;
+    margin-left: 20%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .sección1 img {
@@ -132,4 +133,14 @@ body.estudios {
 .mapa{
     width: 450px;
     height: 300px;
+}
+
+.infoes {
+    text-align: center;
+}
+
+.titulo4 {
+    background-color: white;
+    color: pink;
+    text-align: center;
 }
