@@ -38,21 +38,6 @@ body.estudios {
     color: pink;
 }
 
-.sección2 {
-    border-width:3px;
-    padding: 10px;
-    margin-right: 5%;
-    height: 220px;
-    color: black; 
-    display: grid;
-    justify-content: space-around;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "header header"
-    "tabla1 tabla2"; 
-}
-
 #titulo1 {
     text-align: center;
     margin-left: 5px; 
@@ -63,20 +48,6 @@ body.estudios {
   
 #titulo2 {
     text-align: center;
-}
-
-.tablas {
-    grid-area: header;  
-}
-
-.tabla1{
-    grid-area: tabla1;
-    margin-left: 65%;
-}
-
-.tabla2{
-    grid-area: tabla2;
-    margin-left: 15%;
 }
 
 .sección3{
