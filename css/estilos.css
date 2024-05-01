@@ -107,3 +107,29 @@ body.estudios {
     background-color: white;
     margin-top: -1%;
 }
+
+.ESO{
+    text-align: center;
+    margin-left: 5px; 
+    font-size: 20px;
+    color: white;
+}
+
+.contenedor {
+    border-width:4px;
+    margin-left: 20%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.texto-izq {
+    border-width:4px;
+    margin: 5px; 
+    color: white;
+}
+
+.mapa{
+    width: 450px;
+    height: 300px;
+}
