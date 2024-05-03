@@ -14,39 +14,80 @@ body.estudios {
     text-align: center;
     color: white;
     background-color: pink;
-    margin-top: 0;
     font-family: "Playfair Display", serif;
 }
 
-.sección1{
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-
-    margin-left: 35%;
-    margin-right: 20%; 
+.fila{
     display: flex;
-    flex-wrap: nowrap;
+    width: 100%;
     font-family: "Playfair Display", serif;
 }
 
-.sección1 img {
-    display: flex;
-    width: 45%;
-    height: 65%;
-    padding: 5%;
-}
-
-.tabla1,.tabla2, .tabla3 {
-    font-family: "Playfair Display", serif;
-}
-
-.introducción {
+.col-izq {
     text-align: center;
-    margin-left: 5px; 
-    font-size: 30px;
+    width: 80%;
+    margin-left: 70px; 
+    font-size: 20px;
     color: pink;
     font-family: "Playfair Display", serif;
+    margin-top: 12%;
+}
+
+.col-der {
+    width: 25%;
+    height: 10%;
+    padding: 5%;
+    margin-right: 90px;
+}
+
+#fotopersonal {
+    width: 100%;
+}
+
+#introducción2 {
+    color: black;
+}
+
+.fila2 {
+    width: 100%;
+}
+
+.fila3 {
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    padding-left:  13%;
+    font-family: "Playfair Display", serif;
+}
+
+.tabla1, .tabla2, .tabla3 {
+    width: 33.3%;
+}
+
+.fila4 {
+    width: 100%;
+}
+
+.videoPaula {
+    align-items: center;
+    padding-left: 33%;
+}
+
+.fila5 {
+    width: 100%;
+}
+
+.contenedor {
+    border-width:4px;
+    padding-left: 20%;
+    padding-right: 15%;
+    display: flex;
+    font-family: "Playfair Display", serif;
+}
+
+.mapa{
+    width: 450px;
+    height: 300px;
 }
 
 #titulo1 {
@@ -65,19 +106,10 @@ body.estudios {
 }
   
 #titulo2 {
+    font-family: "Playfair Display", serif;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
-    font-family: "Playfair Display", serif;
-}
-
-.sección3{
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    font-family: "Playfair Display", serif;
 }
 
 #titulo3 {
@@ -90,51 +122,18 @@ body.estudios {
 }
 
 #textosec2 {
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-left: 15%;
+    padding-right: 20%;
+    text-align: justify;
     font-family: "Playfair Display", serif;
 }
+
 
 .encabezado2 {
     text-align: center;
     color: pink;
     background-color: white;
     margin-top: 0;
-    font-family: "Playfair Display", serif;
-}
-
-.ESO{
-    text-align: center;
-    margin-left: 5px; 
-    font-size: 20px;
-    color: white;
-    font-family: "Playfair Display", serif;
-}
-
-.contenedor {
-    border-width:4px;
-    margin-left: 20%;
-    margin-right: 15%;
-    display: flex;
-    flex-wrap: nowrap;  
-    font-family: "Playfair Display", serif;
-}
-
-.texto-izq {
-    border-width:4px;
-    margin: 5px; 
-    color: white;
-    text-align: center;
-    font-family: "Playfair Display", serif;
-}
-
-.mapa{
-    width: 450px;
-    height: 300px;
-}
-
-.infoes {
-    text-align: center;
     font-family: "Playfair Display", serif;
 }
 
@@ -145,12 +144,19 @@ body.estudios {
     font-family: "Playfair Display", serif;
 }
 
-.contenedor2 {
+.texto-izq {
     border-width:4px;
-    margin-left: 30%;
-    margin-right: 20%;
-    display: flex;
-    flex-wrap: nowrap;
+    padding: 5px; 
+    color: white;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.ESO{
+    text-align: center;
+    margin-left: 5px; 
+    font-size: 20px;
+    color: white;
     font-family: "Playfair Display", serif;
 }
 
@@ -165,15 +171,6 @@ body.estudios {
     color: white;
     background-color: pink;
     margin-top: 0;
-    font-family: "Playfair Display", serif;
-}
-
-.contenedor {
-    border-width:4px;
-    margin-left: 20%;
-    margin-right: 15%;
-    display: flex;
-    flex-wrap: nowrap;
     font-family: "Playfair Display", serif;
 }
 
@@ -212,18 +209,107 @@ body.estudios {
     margin-top: 3%;
 }
 
-@media only screen and (max-width: 700px) {
+button{
+    background-color: inherit;
+    border: none;
+}
+
+
+
+@media only screen and (max-width: 500px) {
     .encabezado1 {
         width: 100%;
         height: 100%;
     }
 
-    .sección1 {
-        margin-left: 25px;
-        text-align: center;
-        align-items: center;
-        margin-right: 10px;
+    .encabezado2 {
+        width: 100%;
+        height: 100%;
     }
 
+    .encabezado3 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fila{
+        display: block;
+        /* width: 100%;
+        font-family: "Playfair Display", serif; */
+    }  
     
+    .col-izq {
+        /* text-align: center; */
+        width: 100%;
+        padding-right: 25%;
+        /* margin-left: 5px; 
+        font-size: 30px;
+        color: pink;
+        font-family: "Playfair Display", serif; */
+    }
+    
+    .col-der {
+        width: 100%;
+        height: 20%;
+        align-items: center;
+        /* padding: 5%; */
+    }
+    
+    /* #fotopersonal {
+        width: 100%;
+    } */
+
+    .fila2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #titulo1 {
+        width: 100%;
+    }
+
+    #titulo2 {
+        width: 100%;
+        padding-right: 8%
+    }
+
+    #textosec2 {
+        width: 100%;
+        padding-left: 25%;
+    }
+
+    .fila3 {
+        display: block;
+        /* width: 100%; */
+        /* padding: 2%; */
+        padding-left: 5%;        
+        text-align: center;
+        /* font-family: "Playfair Display", serif;  */
+    }
+    
+    .tabla1, .tabla2, .tabla3 {
+        width: 100%;
+    }
+
+    .videoPaula {
+        align-items: center;
+        padding-left: 20%;
+    }
+    
+    .fila5 {
+        width: 100%;
+    }
+    
+    .contenedor {
+        /* border-width:4px; */
+        display: block;
+        /* font-family: "Playfair Display", serif; */
+    }
+    
+    .mapa{
+        width: 400px;
+        padding-right: 20%;
+    }
+
 }
+
