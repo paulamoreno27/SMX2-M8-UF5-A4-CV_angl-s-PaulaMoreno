@@ -194,6 +194,18 @@ body.estudios {
     font-family: "Playfair Display", serif;
 }
 
+.final {
+    background-color: pink;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.final2 {
+    background-color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
 @media only screen and (max-width: 700px) {
     .encabezado1 {
         width: 100%;
