@@ -106,14 +106,9 @@ body.estudios {
     fill: palevioletred;
 }
 
-.icono1 {
+.icono1, .icononoxd {
     margin-right: 70%;
 }
-
-.icono2 {
-    
-} 
-
 
 #titulo2 {
     font-family: "Playfair Display", serif;
@@ -242,6 +237,16 @@ button{
         height: 100%;
     }
 
+    .icononoxd {
+        margin-right: 50%;
+        margin-left: 10%;
+    }
+
+    .iconosxd {
+        width: 3%;
+        padding-left: 2%;
+        padding-right: -50%;
+    }
 
     .fila{
         display: block;
