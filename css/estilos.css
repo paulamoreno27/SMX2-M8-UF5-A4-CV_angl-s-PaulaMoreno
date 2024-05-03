@@ -57,6 +57,12 @@ body.estudios {
     background-color: pink;
     font-family: "Playfair Display", serif;
 }
+
+.iconos {
+    width: 35px;
+    height: 35px;
+    fill: palevioletred;
+}
   
 #titulo2 {
     text-align: center;
