@@ -70,7 +70,8 @@ body.estudios {
 
 .videoPaula {
     align-items: center;
-    padding-left: 33%;
+    width: 100%;
+    padding-left: 40%;
 }
 
 .fila5 {
@@ -104,7 +105,16 @@ body.estudios {
     height: 35px;
     fill: palevioletred;
 }
-  
+
+.icono1 {
+    margin-right: 70%;
+}
+
+.icono2 {
+    
+} 
+
+
 #titulo2 {
     font-family: "Playfair Display", serif;
     margin-left: 15%;
@@ -232,6 +242,7 @@ button{
         height: 100%;
     }
 
+
     .fila{
         display: block;
         /* width: 100%;
@@ -293,7 +304,7 @@ button{
 
     .videoPaula {
         align-items: center;
-        padding-left: 20%;
+        padding-left: 2%;
     }
     
     .fila5 {
@@ -311,5 +322,87 @@ button{
         padding-right: 20%;
     }
 
-}
+    .texto-izq2 {
+        border-width:4px;
+        margin: 5px; 
+        color: pink;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+    }
 
+    .infoes2 {
+        text-align: center;
+        margin-left: 5px; 
+        font-size: 15px;
+        color: pink;
+        font-family: "Playfair Display", serif;
+    }
+    
+    /* .titulo4 {
+        background-color: white;
+        color: pink;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+    } */
+    
+    .texto-izq {
+        border-width:4px;
+        padding: 5px; 
+        color: white;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+    }
+    
+    .infoes{
+        text-align: center;
+        margin-left: 5px; 
+        font-size: 15px;
+        color: white;
+        font-family: "Playfair Display", serif;
+    }
+    
+    #textoest {
+        text-align: center;
+        color: white;
+        font-family: "Playfair Display", serif;
+    }
+
+    iframe {
+        width: 100%;
+        padding-right: 2%;
+    }
+
+    .final{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .icono1 {
+        width: 20%;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: -20%;
+    }
+
+    .icono2 {
+        width: 20%;
+        justify-content: space-between;
+        margin-left: -60%;
+
+    } 
+ 
+    .icono3 {
+        width: 20%;
+        justify-content: space-between;
+    }
+
+    .icono4 {
+        width: 20%;
+        justify-content: space-between;
+    }
+
+    footer div{
+        color: white;
+        display: flex;
+    }
+}
